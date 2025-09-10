@@ -12,6 +12,7 @@ O robô perde 1 ponto de energia.
 Pode recuperar energia em posições especiais (Power-ups).
 
 Caminhos inviáveis (energia ≤ 0) são descartados.
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 # Funcionalidades
@@ -35,6 +36,7 @@ Caminho percorrido
 Energia restante
 
 Power-ups coletados e evitados
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 # Tecnologias Utilizadas
@@ -48,6 +50,7 @@ random → geração aleatória de obstáculos e power-ups
 math → cálculo da heurística (distância euclidiana)
 
 matplotlib → visualização gráfica do labirinto e do caminho
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 # Conclusão
