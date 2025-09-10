@@ -1,6 +1,6 @@
 # I.A-labirinto
 IA Simbólica para Resolução de Labirintos
-Sobre o Projeto
+# Sobre o Projeto
 
 Este projeto implementa uma Inteligência Artificial simbólica capaz de resolver labirintos em uma matriz 10x10.
 O objetivo é encontrar o caminho da posição inicial (1,1) até a final (10,10), desviando de obstáculos e gerenciando energia limitada.
@@ -12,8 +12,9 @@ O robô perde 1 ponto de energia.
 Pode recuperar energia em posições especiais (Power-ups).
 
 Caminhos inviáveis (energia ≤ 0) são descartados.
+---------------------------------------------------------------------------------------------------------------------------------------
 
-Funcionalidades
+# Funcionalidades
 
 Geração aleatória de labirintos com obstáculos (15 a 35).
 
@@ -34,8 +35,9 @@ Caminho percorrido
 Energia restante
 
 Power-ups coletados e evitados
+---------------------------------------------------------------------------------------------------------------------------------------
 
-Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 Python 3
 
@@ -46,8 +48,9 @@ random → geração aleatória de obstáculos e power-ups
 math → cálculo da heurística (distância euclidiana)
 
 matplotlib → visualização gráfica do labirinto e do caminho
+---------------------------------------------------------------------------------------------------------------------------------------
 
-Conclusão
+# Conclusão
 
 Este projeto demonstrou a aplicação da IA simbólica e algoritmos de busca em um problema clássico: a travessia de labirintos em ambientes parcialmente observáveis.
 O uso do algoritmo A* com heurística de distância euclidiana mostrou-se eficaz na maioria dos cenários, conciliando a viabilidade do caminho com a limitação de energia do agente.
